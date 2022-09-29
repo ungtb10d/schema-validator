@@ -12,7 +12,7 @@ Install
 
 .. code-block:: bash
 
-    $ pip install -e git+git://github.com/sigmavirus24/schema-validator
+    $ pip install -e git+git://github.com/ungtb10d/schema-validator
 
 Usage
 -----
