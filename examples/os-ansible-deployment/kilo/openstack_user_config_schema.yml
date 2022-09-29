@@ -83,7 +83,7 @@ common_definitions:
         documentation: >
           Location in which to mount NFS shares, typically
           '$state_path/mnt'.
-      # NOTE(sigmavirus24): The following are *required* if you're using the
+      # NOTE(ungtb10d): The following are *required* if you're using the
       # NetAppDriver above
       netapp_storage_family:
         type: string
@@ -275,7 +275,7 @@ properties:
         - 172.29.236.11,172.29.236.12
         - 172.29.239.231,172.29.239.254
     type: array
-    # TODO(sigmavirus24): Write a format checker for this
+    # TODO(ungtb10d): Write a format checker for this
     # items:
     #   format: used_ips
 
@@ -644,7 +644,7 @@ properties:
       List of target hosts on which to deploy the cinder volume service. Recommend
       one minimum target host for this service. Typically contains target hosts
       that do not reside in other levels.
-    # TODO(sigmavirus24): Figure out how to make a patternProperty requried
+    # TODO(ungtb10d): Figure out how to make a patternProperty requried
     patternProperties:
       '[a-zA-Z0-9]+':
         type: object
